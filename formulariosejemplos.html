@@ -1,0 +1,55 @@
+<html>
+<title>E</title>
+<body>
+    <style>
+        fieldset{
+            width: 25%;
+        }
+    </style>
+<form>
+        <fieldset>
+        <legend>Datos de la incidencia</legend><br>
+        <label for="id_nombre">Usuario:</label> <br>
+        <input  type="text"
+        name="nombre_usuario"
+        id="id_nombre"
+        placeholder="Escriba su nombre aqu&iacute"/>
+        
+        <br><br>
+
+        <label for="id_dep">Departamento:</label> <br>
+        <select id="id_dep">
+        <option value="IF">Inform&aacute;tica</option>
+        <option value="HR">HR</option>
+        <option value="MR">Marketing</option> 
+        </select>
+
+
+        <br><br>
+        <label for="id_desc">Descripci&oacute;n:</label><br>
+        <textarea id="id_desc" name="Descripcion" 
+        rows="4" cols="40"
+        placeholder="Describa la incidencia aqu&iacute;..."></textarea>
+
+        <br><br>
+
+        <label for="id_password">Contraseña:</label> <br>
+        <input  type="password"
+        id="id_nombre"
+        placeholder="Escriba su password aqu&iacute;"/>
+    </fieldset>
+
+<fieldset>
+    <legend>Botones de reset y env&iacute;o:</legend>
+    <input type="reset" id="butt">
+    <label for="butt"></label>
+    <input type="submit" id="butt2">
+    <label for="butt2"></label>
+
+
+
+</fieldset>
+
+</form>
+</body>
+</html>
